@@ -1,0 +1,91 @@
+.fights-header{
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 4px 29px 0 rgba(15, 46, 64, 0.12);
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("../Images/karate-jombtron.png");
+    color: white;
+}
+.left-box{
+    float: left;
+    width: 33%;
+    height: 90%;
+    background-color: aqua;
+    background-image: url("../Images/fight-karate.jpg");
+}
+.right-box{
+    float: left;
+    width: 65%;
+    height: 90%;
+    margin-left: 2%;
+    color: gray;
+    background: white;
+    padding: 20px;
+}
+.article-fight{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+.article-fight h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: em;
+    padding: 3px;
+}
+.verticle-line {
+    height:90%; /* you might need some positioning for this to work, see other questions about 100% height */
+    width:0.5px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 0.5px;
+}
+.tile{
+    float: left;
+    width: 22.5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    height: 100%;
+    background-color: white;
+}
+
+.photo-gallery{
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tile img{
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    border-radius: 4px;
+
+    
+}
+.tile h6{
+    vertical-align: baseline;
+    padding-top: 10px;
+}
+.left-box img{
+    width: 100%;
+    height: 100%;
+}
+
+
